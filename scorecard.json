@@ -1,0 +1,221 @@
+{
+  "mode": "replay",
+  "caseCount": 7,
+  "modelAxisWinner": "tie",
+  "harnessAxisWinner": "tie",
+  "harnessLifts": {
+    "gemini": {
+      "lift": 4,
+      "seeded": false,
+      "band": 55,
+      "established": false
+    },
+    "codex": {
+      "lift": 41.4,
+      "seeded": true,
+      "band": null,
+      "established": false
+    },
+    "agy": {
+      "lift": 14.4,
+      "seeded": false,
+      "band": 65,
+      "established": false
+    }
+  },
+  "provenance": {
+    "gemini.model": {
+      "seeded": false,
+      "recordedAt": "2026-08-24T10:41:15.162Z",
+      "engineVersion": "0.56.0",
+      "samples": 3
+    },
+    "codex.model": {
+      "seeded": false,
+      "recordedAt": "2026-08-24T04:40:02.176Z",
+      "engineVersion": "codex-cli 0.149.0",
+      "samples": 3
+    },
+    "agy.model": {
+      "seeded": false,
+      "recordedAt": "2026-08-24T04:57:41.366Z",
+      "engineVersion": "1.1.19",
+      "samples": 3
+    },
+    "gemini.deep": {
+      "seeded": false,
+      "recordedAt": "2026-08-24T10:48:36.864Z",
+      "engineVersion": "0.56.0",
+      "samples": 3,
+      "otherVersions": [
+        {
+          "version": "0.55.1",
+          "cases": 1
+        }
+      ],
+      "days": [
+        "2026-08-19",
+        "2026-08-24"
+      ]
+    },
+    "codex.native": {
+      "seeded": true,
+      "recordedAt": null,
+      "engineVersion": null,
+      "samples": 1
+    },
+    "agy.deep": {
+      "seeded": false,
+      "recordedAt": "2026-08-24T09:42:39.600Z",
+      "engineVersion": "1.1.19",
+      "samples": 3
+    },
+    "gemini.shallow": null,
+    "agy.shallow": {
+      "seeded": false,
+      "recordedAt": "2026-08-24T15:28:57.852Z",
+      "engineVersion": "1.1.19",
+      "samples": 3
+    },
+    "gemini.adversarial": null,
+    "codex.adversarial": {
+      "seeded": false,
+      "recordedAt": "2026-08-24T11:10:23.942Z",
+      "engineVersion": "codex-cli 0.149.0",
+      "samples": 3
+    },
+    "agy.adversarial": {
+      "seeded": false,
+      "recordedAt": "2026-08-24T11:18:28.335Z",
+      "engineVersion": "1.1.19",
+      "samples": 3,
+      "days": [
+        "2026-08-24",
+        "2026-08-25"
+      ]
+    }
+  },
+  "byCell": {
+    "gemini.model": {
+      "cell": "gemini.model",
+      "cases": 5,
+      "composite": 69.2,
+      "recall": 0.68,
+      "precision": 0.83,
+      "falsePositives": 1.67,
+      "bonus": 0,
+      "severityExactRate": 0.52,
+      "latencyMs": 25964
+    },
+    "codex.model": {
+      "cell": "codex.model",
+      "cases": 7,
+      "composite": 51.6,
+      "recall": 0.47,
+      "precision": 0.71,
+      "falsePositives": 1.33,
+      "bonus": 0.33,
+      "severityExactRate": 0.45,
+      "latencyMs": 21867
+    },
+    "agy.model": {
+      "cell": "agy.model",
+      "cases": 7,
+      "composite": 61,
+      "recall": 0.58,
+      "precision": 0.74,
+      "falsePositives": 1,
+      "bonus": 0,
+      "severityExactRate": 0.59,
+      "latencyMs": 37990
+    },
+    "gemini.deep": {
+      "cell": "gemini.deep",
+      "cases": 5,
+      "composite": 73.2,
+      "recall": 0.72,
+      "precision": 0.85,
+      "falsePositives": 2.33,
+      "bonus": 0,
+      "severityExactRate": 0.55,
+      "latencyMs": 36868
+    },
+    "codex.native": {
+      "cell": "codex.native",
+      "cases": 2,
+      "composite": 93,
+      "recall": 0.9,
+      "precision": 1,
+      "falsePositives": 0,
+      "bonus": 1,
+      "severityExactRate": 1,
+      "latencyMs": 39850
+    },
+    "agy.deep": {
+      "cell": "agy.deep",
+      "cases": 7,
+      "composite": 75.4,
+      "recall": 0.76,
+      "precision": 0.92,
+      "falsePositives": 2,
+      "bonus": 0,
+      "severityExactRate": 0.4,
+      "latencyMs": 34344
+    },
+    "gemini.shallow": {
+      "cell": "gemini.shallow",
+      "cases": 0,
+      "composite": null,
+      "recall": null,
+      "precision": null,
+      "falsePositives": 0,
+      "bonus": 0,
+      "severityExactRate": null,
+      "latencyMs": null
+    },
+    "agy.shallow": {
+      "cell": "agy.shallow",
+      "cases": 7,
+      "composite": 47.7,
+      "recall": 0.46,
+      "precision": 0.63,
+      "falsePositives": 1.33,
+      "bonus": 0,
+      "severityExactRate": 0.27,
+      "latencyMs": 20665
+    },
+    "gemini.adversarial": {
+      "cell": "gemini.adversarial",
+      "cases": 0,
+      "composite": null,
+      "recall": null,
+      "precision": null,
+      "falsePositives": 0,
+      "bonus": 0,
+      "severityExactRate": null,
+      "latencyMs": null
+    },
+    "codex.adversarial": {
+      "cell": "codex.adversarial",
+      "cases": 7,
+      "composite": 57.3,
+      "recall": 0.52,
+      "precision": 0.81,
+      "falsePositives": 3,
+      "bonus": 0,
+      "severityExactRate": 0.48,
+      "latencyMs": 35043
+    },
+    "agy.adversarial": {
+      "cell": "agy.adversarial",
+      "cases": 7,
+      "composite": 72,
+      "recall": 0.7,
+      "precision": 0.89,
+      "falsePositives": 2.33,
+      "bonus": 0.33,
+      "severityExactRate": 0.47,
+      "latencyMs": 40240
+    }
+  }
+}
